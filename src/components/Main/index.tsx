@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './styles';
+import { Container, Header, BackIcon, ProfileInfo, BottomMenu, HomeIcon, SearchIcon, EmailIcon, BellIcon } from './styles';
 
 const Main: React.FC = () => {
   return (
-    <Cantainer>
+    <Container>
         <Header>
           <button>
             <BackIcon />
@@ -18,13 +18,13 @@ const Main: React.FC = () => {
 
         {/* <Profile></Profile> */}
 
-        {/* <BottomMenu>
+        <BottomMenu>
             <HomeIcon /> 
             <SearchIcon />
             <BellIcon />
             <EmailIcon />
-        </BottomMenu> */}
-    </Cantainer>
+        </BottomMenu> *
+    </Container>
   )
 }
 
