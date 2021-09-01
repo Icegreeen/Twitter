@@ -17,7 +17,8 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  position: sticky; // preso encima
+  position: sticky ; // preso encima
+  z-index: 3;
   top: 0;
   background: var(--primary);
 

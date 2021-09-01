@@ -6,7 +6,7 @@ interface Props {
 
 export default styled.button<Props>`
   background: ${(props) => (props.outlined ? 'tranparent' : 'var(--twitter)')};
-  color: ${props => pros.outlined ? 'var(--twitter)' : 'var(--white)'};
+  color: ${props => props.outlined ? 'var(--twitter)' : 'var(--white)'};
   border: ${props => props.outlined ? '1px solid var(--twitter)' : 'none'};
 
   padding: 16px;
@@ -14,4 +14,14 @@ export default styled.button<Props>`
 
   font-weight: bold;
   font-size: 15px;
+
+  cursor: pointer;
+  outline: 0;
+
+  &:hover {
+    background: ${props => 
+      props.outlined
+        ? 'var(--twitter-dark-hover)' 
+        : 'var(--twitter-light-hover)'};
+  }
 `;
