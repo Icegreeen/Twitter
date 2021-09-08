@@ -50,6 +50,9 @@ export const Avatar = styled.div`
   flex-shrink: 0;
   background: var(--gray);
 
+  background-image: url('./profile.jpg');
+  background-size: cover;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -144,6 +147,36 @@ export const Icons = styled.div`
 export const Status = styled.div`
   display: flex;
   align-items: center;
+
+  font-size: 14px;
+
+  > svg {
+    margin-right: 5px;
+  }
+
+  &:nth-child(1) {
+    &, > svg path {
+      color: var(--gray);
+    }
+  }
+
+  &:nth-child(2) {
+    color: var(--retweet);
+
+    > svg path {
+      fill: var(--retweet);
+    }
+  }
+  
+  &:nth-child(3) {
+    color: var(--like);
+
+    > svg {
+      fill: var(--like);
+    }
+  }
+
+
 `;
 
 const iconCSS = css `

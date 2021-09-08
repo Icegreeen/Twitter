@@ -33,7 +33,7 @@ export default createGlobalStyle`
     --gray: #7A7A7A; 
     --outline: #2F3336;
     --retweet: #00c06b;
-    --line: #e8265e;
+    --like: #e8265e;
     --twitter: #33a1f2;
     --twitter-dark-hover: #011017;
     --twitter-light-hover: #2c8ed6;
