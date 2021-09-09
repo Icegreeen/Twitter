@@ -1,7 +1,8 @@
 # Twitter Clone
 
+![twitter](https://user-images.githubusercontent.com/56550632/132618495-172086de-6703-4841-8eab-9b4f784d9988.png)
 
->  Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+>  The twitter profile interface in React.
 
 ## 🚀 Running Locally <twitter-clone>
 
