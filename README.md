@@ -22,4 +22,4 @@ Open http://localhost:3000 with your browser to see the result.
 
 ## Made
 
-Made by @Icegreen [Icegreen](https://github.com/Icegreeen).
+Made by [Icegreen](https://github.com/Icegreeen). 🚀 
