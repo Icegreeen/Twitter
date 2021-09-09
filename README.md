@@ -1,8 +1,11 @@
-# Twitter Clone
+<h1 align="center">
+    <a">🔗 Twitter Clone</a>
+</h1>
+<p align="center">🚀 The twitter profile interface in React.</p> 
+
+> Project status: Completed :heavy_check_mark:  
 
 ![twitter](https://user-images.githubusercontent.com/56550632/132618495-172086de-6703-4841-8eab-9b4f784d9988.png)
-
->  The twitter profile interface in React.
 
 ## 🚀 Running Locally <twitter-clone>
 
@@ -21,6 +24,7 @@ $ yarn start
 
 Open http://localhost:3000 with your browser to see the result.
 
-## Made
+# Made
 
-Made by [Icegreen](https://github.com/Icegreeen). 🚀 
+Made by [Icegreen](https://github.com/Icegreeen). 🚀 purple_heart 
+
