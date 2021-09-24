@@ -26,5 +26,5 @@ Open http://localhost:3000 with your browser to see the result.
 
 # Made
 
-Made by [Icegreen](https://github.com/Icegreeen). 🚀 purple_heart 
+Made by [Icegreen](https://github.com/Icegreeen). 🚀 
 
